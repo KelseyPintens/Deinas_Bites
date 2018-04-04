@@ -1,0 +1,156 @@
+
+// colors
+$black: #191919;
+$gray: #f3f3f3;
+$pink: #f6d9ea;
+$font: 'PT Serif', serif;
+$headingfont: 'Nunito', sans-serif;
+
+
+
+
+body {
+    color: $black;
+}
+
+h1 {
+    font-family: $font;
+    font-size: 1.5em;
+}
+
+h4 {
+    font-family: $headingfont;
+    font-size: .7em;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: $headingfont;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: $headingfont;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: $font;
+    font-size: .8em;
+}
+
+nav {
+    width: 75%;
+    margin: auto;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav {
+    padding: 1em;
+}
+
+.foreground {
+    z-index: 1;
+    position: relative;
+    top: 21em;
+    left: 16em;
+    margin-top: -12em;
+}
+
+.natural {
+    font-family: $font;
+    color: #ffffff;
+    font-size: 2.75em;
+}
+
+.homemade {
+    font-family: $headingfont;
+    color: #ffffff;
+    font-size: 2.75em;
+}
+
+.shop {
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: $black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.shop:hover {
+    background-color: $black;  /* Green */
+    border: none;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.best {
+    width: 65%;
+}
+
+hr {
+    width: 65%;
+    border-color: $black;
+}
+
+.cookies {
+    border: solid .05em $black;
+    width: 10%;
+    padding-top: .5em;
+    background-color: #ffffff;
+    z-index: 1;
+    position: relative;
+    top: 2.25em;
+    left: 36.25em;
+}
+
+.follow {
+    z-index: 1;
+    position: relative;
+    top: 40em;
+    margin-top: -32em;
+}
+
+.bg_gray {
+    background-color: $gray;
+    width: 1000px;
+    height: 300px;
+}
+
+.white {
+    height: 400px;;
+}
+
+.insta_image {
+    object-fit: cover;
+    width: 255px;
+    height: 255px;
+}
+
+.insta {
+    width: 60%;
+}
+
+.footer {
+    background-color: rgba(246, 217, 234, .5);
+    width: 1000px;
+
+}
+
+.footer_content {
+    margin-top: 3em;
+    margin-left: 6em;
+}
+
+
+
+
