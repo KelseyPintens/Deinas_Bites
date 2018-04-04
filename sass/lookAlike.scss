@@ -40,6 +40,17 @@ p {
     font-size: .8em;
 }
 
+a {
+    text-decoration: none;
+    color: $black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: $black;
+}
+
+
 nav {
     width: 75%;
     margin: auto;
@@ -94,11 +105,11 @@ nav {
 }
 
 .best {
-    width: 65%;
+    justify-content: center;
 }
 
 hr {
-    width: 65%;
+    width: 62%;
     border-color: $black;
 }
 
@@ -151,6 +162,24 @@ hr {
     margin-left: 6em;
 }
 
+.pink {
+    color: #f6d9ea;
+}
 
+#carouselExampleSlidesOnly {
+    overflow: hidden;
+}
 
+.cookie_switch img:last-child{display:none}
+.cookie_switch:hover img:first-child{display:none}
+.cookie_switch:hover img:last-child{display:inline-block}
 
+.shop_container {
+    width: 1000px;
+    padding-top: 3em;
+    background-color: $gray;
+}
+
+.cookie {
+    width: 65%;
+}
